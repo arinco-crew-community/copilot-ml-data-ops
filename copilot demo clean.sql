@@ -7,6 +7,10 @@ drop table if exists dbo.comments
 drop table if exists dbo.likes
 drop table if exists dbo.posts
 drop table if exists dbo.users
+
+
+-- show all tables in the database
+select * from information_schema.tables
  
 -- insert 100 random data into all existing tables in the database (users, posts, comments and likes) using loops
 
