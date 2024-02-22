@@ -91,7 +91,7 @@ end;
 
 
 
-
+-- show all posts ordered by likes count
 -- Language: sql
 select p.id, p.title, p.content, count(l.id) as likes_count
 from dbo.posts p
