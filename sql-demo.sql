@@ -10,8 +10,7 @@ drop table if exists dbo.users
 
 
 -- show all tables in the database
-select * from information_schema.tables
- 
+
 -- insert 100 random data into all existing tables in the database (users, posts, comments and likes) using loops
 
 -- show all posts order by likes count 
